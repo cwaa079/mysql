@@ -1,5 +1,4 @@
 --https://www.hackerrank.com/challenges/harry-potter-and-wands/problem?isFullScreen=true
---ㅇㅏㄴㅣ ㄱㅡㄹㅐㅅㅓ ㅎㅏㄴㄱㅡㄹ ㅗㅇㅐ ㅇㅏㄴㄷㅗㅣㅁ
 
 SELECT W.id, P.age, W.coins_needed, W.power
 FROM (SELECT code, MIN(coins_needed) as coins_needed, power
