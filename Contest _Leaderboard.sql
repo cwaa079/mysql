@@ -1,4 +1,5 @@
 --https://www.hackerrank.com/challenges/contest-leaderboard/problem?isFullScreen=true
+--서브쿼리
 
 SELECT Hackers.hacker_id, Hackers.name, sub2.total_score
 FROM(SELECT sub.hacker_id, sum(sub.max_score) as total_score
